@@ -1,0 +1,4 @@
+﻿/.vs
+/DotNetTraining/.vs/DotNetTraining
+/DotNetTraining/*/obj
+/DotNetTraining/*/bin/Debug/netcoreapp3.1
