@@ -1,8 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetTraining.Lesson2.Args\DotNetTraining.Lesson2.Args.csproj" />
+    <ProjectReference Include="..\DotNetTraining.Lesson2.Enums\DotNetTraining.Lesson2.Enums.csproj" />
+    <ProjectReference Include="..\DotNetTraining.Lesson2.Methods\DotNetTraining.Lesson2.Methods.csproj" />
+    <ProjectReference Include="..\DotNetTraining.Lesson2.RecursiveMethods\DotNetTraining.Lesson2.RecursiveMethods.csproj" />
+  </ItemGroup>
 
 </Project>
