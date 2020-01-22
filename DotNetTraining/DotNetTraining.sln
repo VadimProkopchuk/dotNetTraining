@@ -9,9 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson2", "Lesson2", "{AEEE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Methods", "DotNetTraining.Lesson2.Methods\DotNetTraining.Lesson2.Methods.csproj", "{508728F5-B286-47D6-B545-AA77F16C89C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson2.Presentation", "DotNetTraining.Lesson2.Presentation\DotNetTraining.Lesson2.Presentation.csproj", "{BD720237-635D-4C4C-A071-2861393A842D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Presentation", "DotNetTraining.Lesson2.Presentation\DotNetTraining.Lesson2.Presentation.csproj", "{BD720237-635D-4C4C-A071-2861393A842D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson2.Args", "DotNetTraining.Lesson2.Args\DotNetTraining.Lesson2.Args.csproj", "{11F7FEA4-4B69-410B-B9BF-17F637C4D47D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Args", "DotNetTraining.Lesson2.Args\DotNetTraining.Lesson2.Args.csproj", "{11F7FEA4-4B69-410B-B9BF-17F637C4D47D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson2.RecursiveMethods", "DotNetTraining.Lesson2.RecursiveMethods\DotNetTraining.Lesson2.RecursiveMethods.csproj", "{E5C97BE7-1025-4B34-9565-BBD001D25B14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{11F7FEA4-4B69-410B-B9BF-17F637C4D47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F7FEA4-4B69-410B-B9BF-17F637C4D47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11F7FEA4-4B69-410B-B9BF-17F637C4D47D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C97BE7-1025-4B34-9565-BBD001D25B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C97BE7-1025-4B34-9565-BBD001D25B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C97BE7-1025-4B34-9565-BBD001D25B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C97BE7-1025-4B34-9565-BBD001D25B14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{508728F5-B286-47D6-B545-AA77F16C89C6} = {AEEEC612-BF39-4DB4-B5DA-EB492BAB37FE}
 		{BD720237-635D-4C4C-A071-2861393A842D} = {AEEEC612-BF39-4DB4-B5DA-EB492BAB37FE}
 		{11F7FEA4-4B69-410B-B9BF-17F637C4D47D} = {AEEEC612-BF39-4DB4-B5DA-EB492BAB37FE}
+		{E5C97BE7-1025-4B34-9565-BBD001D25B14} = {AEEEC612-BF39-4DB4-B5DA-EB492BAB37FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27A0F800-A4FF-4497-8710-9CFDB6691772}
