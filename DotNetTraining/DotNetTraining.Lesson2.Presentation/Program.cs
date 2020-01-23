@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 using DotNetTraining.Lesson2.Classes;
 using DotNetTraining.Lesson2.Classes.ExtendsExample.Base;
 using DotNetTraining.Lesson2.Classes.ExtendsExample.Contracts;
@@ -11,10 +13,10 @@ namespace DotNetTraining.Lesson2.Presentation
     {
         static void Main(string[] args)
         {
-            ReportsExample();
+            RunPatternMatchingExample();
         }
 
-        static void ReportsExample()
+        static void RunReportsExample()
         {
             var cars = new List<CarEntity>()
             {
@@ -39,5 +41,67 @@ namespace DotNetTraining.Lesson2.Presentation
             Console.WriteLine();
             Console.WriteLine(homeReportGenerator.GenerateReport(homes));
         }
-   }
+
+        static void RunAnonimTypesExample()
+        {
+            var obj = new
+            {
+                Name = "CSharp",
+                Age = 22
+            };
+
+            PrintObj("TEST-HEADER");
+
+            void PrintObj(string header)
+            {
+                Console.WriteLine("Header: {0}", header);
+                Console.WriteLine($"Name: {obj.Name}, Age: {obj.Age}");
+                Console.WriteLine();
+            }
+        }
+
+        static void RunFinalizerExample()
+        {
+            for (var i = 0; i < 10; i++)
+            {
+                new FinalizerExample();
+            }
+
+            GC.Collect(0);
+        }
+
+        static void RunPatternMatchingExample()
+        {
+            object obj = 1; 
+            
+            if (obj is int number)
+            {
+                Console.WriteLine(number.GetType().Name);
+            }
+
+            PrintType(1);
+            PrintType(null);
+            PrintType("string");
+            PrintType(new Program());
+
+            void PrintType(object ob)
+            {
+                switch (ob)
+                {
+                    case int numberSwitch:
+                        Console.WriteLine("Switch: {0}", numberSwitch.GetType().Name);
+                        break;
+                    case null:
+                        Console.WriteLine("Switch: NULL");
+                        break;
+                    case string stringSwitch:
+                        Console.WriteLine("Switch: {0}", stringSwitch.GetType().Name);
+                        break;
+                    default: 
+                        Console.WriteLine("Unknown type.");
+                        break;
+                }
+            }
+        }
+    }
 }
