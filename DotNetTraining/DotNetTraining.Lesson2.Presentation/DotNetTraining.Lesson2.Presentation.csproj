@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DotNetTraining.Lesson2.Args\DotNetTraining.Lesson2.Args.csproj" />
+    <ProjectReference Include="..\DotNetTraining.Lesson2.Classes\DotNetTraining.Lesson2.Classes.csproj" />
     <ProjectReference Include="..\DotNetTraining.Lesson2.Enums\DotNetTraining.Lesson2.Enums.csproj" />
     <ProjectReference Include="..\DotNetTraining.Lesson2.Methods\DotNetTraining.Lesson2.Methods.csproj" />
     <ProjectReference Include="..\DotNetTraining.Lesson2.RecursiveMethods\DotNetTraining.Lesson2.RecursiveMethods.csproj" />
