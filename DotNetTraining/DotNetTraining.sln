@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Recu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Enums", "DotNetTraining.Lesson2.Enums\DotNetTraining.Lesson2.Enums.csproj", "{0E14D112-3286-4A7A-AB1F-3DF00CAD1D3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson2.Classes", "DotNetTraining.Lesson2.Classes\DotNetTraining.Lesson2.Classes.csproj", "{AB6FAEDD-36F9-4E1A-BF13-611728668782}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Classes", "DotNetTraining.Lesson2.Classes\DotNetTraining.Lesson2.Classes.csproj", "{AB6FAEDD-36F9-4E1A-BF13-611728668782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson2.Tuple", "DotNetTraining.Lesson2.Tuple\DotNetTraining.Lesson2.Tuple.csproj", "{2379E5AD-3A68-4F77-8F40-5ABC3DCBCCF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Tuple", "DotNetTraining.Lesson2.Tuple\DotNetTraining.Lesson2.Tuple.csproj", "{2379E5AD-3A68-4F77-8F40-5ABC3DCBCCF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson2.Structures", "DotNetTraining.Lesson2.Structures\DotNetTraining.Lesson2.Structures.csproj", "{6517EF6A-1C8C-4DE3-A650-DF4D5C6F39D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Structures", "DotNetTraining.Lesson2.Structures\DotNetTraining.Lesson2.Structures.csproj", "{6517EF6A-1C8C-4DE3-A650-DF4D5C6F39D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson2.Partial", "DotNetTraining.Lesson2.Partial\DotNetTraining.Lesson2.Partial.csproj", "{9A75629E-9FB0-4EE6-8B7F-AA6F80320C25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{6517EF6A-1C8C-4DE3-A650-DF4D5C6F39D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6517EF6A-1C8C-4DE3-A650-DF4D5C6F39D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6517EF6A-1C8C-4DE3-A650-DF4D5C6F39D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A75629E-9FB0-4EE6-8B7F-AA6F80320C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A75629E-9FB0-4EE6-8B7F-AA6F80320C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A75629E-9FB0-4EE6-8B7F-AA6F80320C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A75629E-9FB0-4EE6-8B7F-AA6F80320C25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{AB6FAEDD-36F9-4E1A-BF13-611728668782} = {AEEEC612-BF39-4DB4-B5DA-EB492BAB37FE}
 		{2379E5AD-3A68-4F77-8F40-5ABC3DCBCCF5} = {AEEEC612-BF39-4DB4-B5DA-EB492BAB37FE}
 		{6517EF6A-1C8C-4DE3-A650-DF4D5C6F39D7} = {AEEEC612-BF39-4DB4-B5DA-EB492BAB37FE}
+		{9A75629E-9FB0-4EE6-8B7F-AA6F80320C25} = {AEEEC612-BF39-4DB4-B5DA-EB492BAB37FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27A0F800-A4FF-4497-8710-9CFDB6691772}

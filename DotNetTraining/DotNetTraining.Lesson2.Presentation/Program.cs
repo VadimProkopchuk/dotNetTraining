@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
 using DotNetTraining.Lesson2.Classes;
 using DotNetTraining.Lesson2.Classes.ExtendsExample.Base;
-using DotNetTraining.Lesson2.Classes.ExtendsExample.Contracts;
 using DotNetTraining.Lesson2.Classes.ExtendsExample.Generators;
+using DotNetTraining.Lesson2.Partial;
 
 namespace DotNetTraining.Lesson2.Presentation
 {
@@ -13,7 +11,7 @@ namespace DotNetTraining.Lesson2.Presentation
     {
         static void Main(string[] args)
         {
-            RunPatternMatchingExample();
+
         }
 
         static void RunReportsExample()
@@ -102,6 +100,11 @@ namespace DotNetTraining.Lesson2.Presentation
                         break;
                 }
             }
+        }
+
+        static void RunPartialExample()
+        {
+            new Bootstrap().Run();
         }
     }
 }

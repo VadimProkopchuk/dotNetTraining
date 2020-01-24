@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DotNetTraining.Lesson2.Args
+﻿namespace DotNetTraining.Lesson2.Args
 {
     internal class ArgsContextExample
     {

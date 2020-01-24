@@ -2,18 +2,18 @@
 {
     public struct StructuresExample
     {
-        public int x;
-        public int y;
-
         public StructuresExample(int x, int y)
         {
-            this.x = x;
-            this.y = y;
+            X = x;
+            Y = y;
         }
+
+        public int X { get; }
+        public int Y { get; }
 
         public override string ToString()
         {
-            return $"x: {x}, y: {y}";
+            return $"x: {X}, y: {Y}";
         }
     }
 }

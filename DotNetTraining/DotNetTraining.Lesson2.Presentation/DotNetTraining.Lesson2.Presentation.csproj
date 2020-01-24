@@ -11,7 +11,10 @@
     <ProjectReference Include="..\DotNetTraining.Lesson2.Classes\DotNetTraining.Lesson2.Classes.csproj" />
     <ProjectReference Include="..\DotNetTraining.Lesson2.Enums\DotNetTraining.Lesson2.Enums.csproj" />
     <ProjectReference Include="..\DotNetTraining.Lesson2.Methods\DotNetTraining.Lesson2.Methods.csproj" />
+    <ProjectReference Include="..\DotNetTraining.Lesson2.Partial\DotNetTraining.Lesson2.Partial.csproj" />
     <ProjectReference Include="..\DotNetTraining.Lesson2.RecursiveMethods\DotNetTraining.Lesson2.RecursiveMethods.csproj" />
+    <ProjectReference Include="..\DotNetTraining.Lesson2.Structures\DotNetTraining.Lesson2.Structures.csproj" />
+    <ProjectReference Include="..\DotNetTraining.Lesson2.Tuple\DotNetTraining.Lesson2.Tuple.csproj" />
   </ItemGroup>
 
 </Project>
