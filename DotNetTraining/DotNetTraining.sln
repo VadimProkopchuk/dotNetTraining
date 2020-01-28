@@ -27,7 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Part
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson4", "Lesson4", "{BBE44A22-6F3E-4802-9A74-7D65824CD698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson4.Presentation", "DotNetTraining.Lesson4.Presentation\DotNetTraining.Lesson4.Presentation.csproj", "{EA98A4FF-E56D-4D90-B250-498FDF3E4ED6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Presentation", "DotNetTraining.Lesson4.Presentation\DotNetTraining.Lesson4.Presentation.csproj", "{EA98A4FF-E56D-4D90-B250-498FDF3E4ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson4.Tests", "DotNetTraining.Lesson4.Tests\DotNetTraining.Lesson4.Tests.csproj", "{90FD7826-D6CD-48E7-86E8-0CFA53BDF679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson4.Calculator", "DotNetTraining.Lesson4.Calculator\DotNetTraining.Lesson4.Calculator.csproj", "{A3ECCE8A-8133-4703-B5AE-1C111BD47BF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson4.MoqClasses", "DotNetTraining.Lesson4.MoqClasses\DotNetTraining.Lesson4.MoqClasses.csproj", "{997BF0D7-5985-41CE-B37D-1CACEBEC16CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson4.Principles", "DotNetTraining.Lesson4.Principles\DotNetTraining.Lesson4.Principles.csproj", "{41A6626C-6E1D-4297-ABF1-59D0196AAC20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,22 @@ Global
 		{EA98A4FF-E56D-4D90-B250-498FDF3E4ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA98A4FF-E56D-4D90-B250-498FDF3E4ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA98A4FF-E56D-4D90-B250-498FDF3E4ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FD7826-D6CD-48E7-86E8-0CFA53BDF679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FD7826-D6CD-48E7-86E8-0CFA53BDF679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FD7826-D6CD-48E7-86E8-0CFA53BDF679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FD7826-D6CD-48E7-86E8-0CFA53BDF679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3ECCE8A-8133-4703-B5AE-1C111BD47BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3ECCE8A-8133-4703-B5AE-1C111BD47BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3ECCE8A-8133-4703-B5AE-1C111BD47BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3ECCE8A-8133-4703-B5AE-1C111BD47BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997BF0D7-5985-41CE-B37D-1CACEBEC16CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997BF0D7-5985-41CE-B37D-1CACEBEC16CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997BF0D7-5985-41CE-B37D-1CACEBEC16CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997BF0D7-5985-41CE-B37D-1CACEBEC16CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A6626C-6E1D-4297-ABF1-59D0196AAC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A6626C-6E1D-4297-ABF1-59D0196AAC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A6626C-6E1D-4297-ABF1-59D0196AAC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A6626C-6E1D-4297-ABF1-59D0196AAC20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +114,10 @@ Global
 		{6517EF6A-1C8C-4DE3-A650-DF4D5C6F39D7} = {AEEEC612-BF39-4DB4-B5DA-EB492BAB37FE}
 		{9A75629E-9FB0-4EE6-8B7F-AA6F80320C25} = {AEEEC612-BF39-4DB4-B5DA-EB492BAB37FE}
 		{EA98A4FF-E56D-4D90-B250-498FDF3E4ED6} = {BBE44A22-6F3E-4802-9A74-7D65824CD698}
+		{90FD7826-D6CD-48E7-86E8-0CFA53BDF679} = {BBE44A22-6F3E-4802-9A74-7D65824CD698}
+		{A3ECCE8A-8133-4703-B5AE-1C111BD47BF7} = {BBE44A22-6F3E-4802-9A74-7D65824CD698}
+		{997BF0D7-5985-41CE-B37D-1CACEBEC16CB} = {BBE44A22-6F3E-4802-9A74-7D65824CD698}
+		{41A6626C-6E1D-4297-ABF1-59D0196AAC20} = {BBE44A22-6F3E-4802-9A74-7D65824CD698}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27A0F800-A4FF-4497-8710-9CFDB6691772}
