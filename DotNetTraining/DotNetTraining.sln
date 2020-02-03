@@ -29,13 +29,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson4", "Lesson4", "{BBE4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Presentation", "DotNetTraining.Lesson4.Presentation\DotNetTraining.Lesson4.Presentation.csproj", "{EA98A4FF-E56D-4D90-B250-498FDF3E4ED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson4.Tests", "DotNetTraining.Lesson4.Tests\DotNetTraining.Lesson4.Tests.csproj", "{90FD7826-D6CD-48E7-86E8-0CFA53BDF679}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Tests", "DotNetTraining.Lesson4.Tests\DotNetTraining.Lesson4.Tests.csproj", "{90FD7826-D6CD-48E7-86E8-0CFA53BDF679}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson4.Calculator", "DotNetTraining.Lesson4.Calculator\DotNetTraining.Lesson4.Calculator.csproj", "{A3ECCE8A-8133-4703-B5AE-1C111BD47BF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Calculator", "DotNetTraining.Lesson4.Calculator\DotNetTraining.Lesson4.Calculator.csproj", "{A3ECCE8A-8133-4703-B5AE-1C111BD47BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson4.MoqClasses", "DotNetTraining.Lesson4.MoqClasses\DotNetTraining.Lesson4.MoqClasses.csproj", "{997BF0D7-5985-41CE-B37D-1CACEBEC16CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.MoqClasses", "DotNetTraining.Lesson4.MoqClasses\DotNetTraining.Lesson4.MoqClasses.csproj", "{997BF0D7-5985-41CE-B37D-1CACEBEC16CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson4.Principles", "DotNetTraining.Lesson4.Principles\DotNetTraining.Lesson4.Principles.csproj", "{41A6626C-6E1D-4297-ABF1-59D0196AAC20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Principles", "DotNetTraining.Lesson4.Principles\DotNetTraining.Lesson4.Principles.csproj", "{41A6626C-6E1D-4297-ABF1-59D0196AAC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.Presentation", "DotNetTraining.Lesson1.Presentation\DotNetTraining.Lesson1.Presentation.csproj", "{BFB27969-9D70-4E32-8E44-8547ECB4CA8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.Variables", "DotNetTraining.Lesson1.Variables\DotNetTraining.Lesson1.Variables.csproj", "{E11939AD-30F4-4F00-9804-4100338E920B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.ArithmeticOperators", "DotNetTraining.Lesson1.ArithmeticOperators\DotNetTraining.Lesson1.ArithmeticOperators.csproj", "{B53E689A-4B42-457C-B26C-1D26133F7630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.BitwiseOperators", "DotNetTraining.Lesson1.BitwiseOperators\DotNetTraining.Lesson1.BitwiseOperators.csproj", "{1F6EE359-570B-42B4-A5C4-3C7696C389D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.AssignmentOperators", "DotNetTraining.Lesson1.AssignmentOperators\DotNetTraining.Lesson1.AssignmentOperators.csproj", "{F2BBD8C8-EACA-4649-B4B3-C367DA28B883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.ConversionOperations", "DotNetTraining.Lesson1.ConversionOperations\DotNetTraining.Lesson1.ConversionOperations.csproj", "{BE5AFDC3-3549-449B-A61F-600E02B447B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.ConditionalExpressionsAndStatements", "DotNetTraining.Lesson1.ConditionalExpressions\DotNetTraining.Lesson1.ConditionalExpressionsAndStatements.csproj", "{2247BDC9-13F0-42C1-8752-D40C5029CE15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.LoopsAndArrays", "DotNetTraining.Lesson1.LoopsAndArrays\DotNetTraining.Lesson1.LoopsAndArrays.csproj", "{6DA9F95A-7583-49B7-B6C4-19042A3A38F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.NamespacesAndStaticImport", "DotNetTraining.Lesson1.NamespacesAndStaticImport\DotNetTraining.Lesson1.NamespacesAndStaticImport.csproj", "{E0BC7E8D-CDB6-48A7-A118-9AA0E04A1209}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +117,42 @@ Global
 		{41A6626C-6E1D-4297-ABF1-59D0196AAC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41A6626C-6E1D-4297-ABF1-59D0196AAC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41A6626C-6E1D-4297-ABF1-59D0196AAC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB27969-9D70-4E32-8E44-8547ECB4CA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB27969-9D70-4E32-8E44-8547ECB4CA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB27969-9D70-4E32-8E44-8547ECB4CA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB27969-9D70-4E32-8E44-8547ECB4CA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E11939AD-30F4-4F00-9804-4100338E920B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E11939AD-30F4-4F00-9804-4100338E920B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E11939AD-30F4-4F00-9804-4100338E920B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E11939AD-30F4-4F00-9804-4100338E920B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53E689A-4B42-457C-B26C-1D26133F7630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53E689A-4B42-457C-B26C-1D26133F7630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53E689A-4B42-457C-B26C-1D26133F7630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53E689A-4B42-457C-B26C-1D26133F7630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6EE359-570B-42B4-A5C4-3C7696C389D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6EE359-570B-42B4-A5C4-3C7696C389D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6EE359-570B-42B4-A5C4-3C7696C389D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6EE359-570B-42B4-A5C4-3C7696C389D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BBD8C8-EACA-4649-B4B3-C367DA28B883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BBD8C8-EACA-4649-B4B3-C367DA28B883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BBD8C8-EACA-4649-B4B3-C367DA28B883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BBD8C8-EACA-4649-B4B3-C367DA28B883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5AFDC3-3549-449B-A61F-600E02B447B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5AFDC3-3549-449B-A61F-600E02B447B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5AFDC3-3549-449B-A61F-600E02B447B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5AFDC3-3549-449B-A61F-600E02B447B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2247BDC9-13F0-42C1-8752-D40C5029CE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2247BDC9-13F0-42C1-8752-D40C5029CE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2247BDC9-13F0-42C1-8752-D40C5029CE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2247BDC9-13F0-42C1-8752-D40C5029CE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA9F95A-7583-49B7-B6C4-19042A3A38F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA9F95A-7583-49B7-B6C4-19042A3A38F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA9F95A-7583-49B7-B6C4-19042A3A38F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA9F95A-7583-49B7-B6C4-19042A3A38F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0BC7E8D-CDB6-48A7-A118-9AA0E04A1209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0BC7E8D-CDB6-48A7-A118-9AA0E04A1209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0BC7E8D-CDB6-48A7-A118-9AA0E04A1209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0BC7E8D-CDB6-48A7-A118-9AA0E04A1209}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +172,15 @@ Global
 		{A3ECCE8A-8133-4703-B5AE-1C111BD47BF7} = {BBE44A22-6F3E-4802-9A74-7D65824CD698}
 		{997BF0D7-5985-41CE-B37D-1CACEBEC16CB} = {BBE44A22-6F3E-4802-9A74-7D65824CD698}
 		{41A6626C-6E1D-4297-ABF1-59D0196AAC20} = {BBE44A22-6F3E-4802-9A74-7D65824CD698}
+		{BFB27969-9D70-4E32-8E44-8547ECB4CA8E} = {C2CD1767-B059-4B1B-8FE3-4798DCC6955A}
+		{E11939AD-30F4-4F00-9804-4100338E920B} = {C2CD1767-B059-4B1B-8FE3-4798DCC6955A}
+		{B53E689A-4B42-457C-B26C-1D26133F7630} = {C2CD1767-B059-4B1B-8FE3-4798DCC6955A}
+		{1F6EE359-570B-42B4-A5C4-3C7696C389D7} = {C2CD1767-B059-4B1B-8FE3-4798DCC6955A}
+		{F2BBD8C8-EACA-4649-B4B3-C367DA28B883} = {C2CD1767-B059-4B1B-8FE3-4798DCC6955A}
+		{BE5AFDC3-3549-449B-A61F-600E02B447B6} = {C2CD1767-B059-4B1B-8FE3-4798DCC6955A}
+		{2247BDC9-13F0-42C1-8752-D40C5029CE15} = {C2CD1767-B059-4B1B-8FE3-4798DCC6955A}
+		{6DA9F95A-7583-49B7-B6C4-19042A3A38F5} = {C2CD1767-B059-4B1B-8FE3-4798DCC6955A}
+		{E0BC7E8D-CDB6-48A7-A118-9AA0E04A1209} = {C2CD1767-B059-4B1B-8FE3-4798DCC6955A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27A0F800-A4FF-4497-8710-9CFDB6691772}
