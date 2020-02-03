@@ -1,5 +1,7 @@
 ﻿using System;
 using DotNetTraining.Lesson6.Delegates;
+using DotNetTraining.Lesson6.Events;
+using DotNetTraining.Lesson6.Events.Clients;
 
 namespace DotNetTraining.Lesson6.Presentation
 {
@@ -7,10 +9,10 @@ namespace DotNetTraining.Lesson6.Presentation
     {
         static void Main(string[] args)
         {
-            
 
 
-            RunDelegateExample();
+
+            RunEventsExample();
         }
 
 
@@ -30,6 +32,20 @@ namespace DotNetTraining.Lesson6.Presentation
             print += info => Console.WriteLine("3. {0}", info);
 
             user.PrintInfo(print);
+        }
+
+        static void RunEventsExample()
+        {
+            var dispatcher = new Dispatcher();
+            var logger = new Logger();
+            var httpClient = new HttpUserClient();
+
+            dispatcher.OnUserCreated += (sender, args) => logger.LogUser(args.SimpleUser);
+            dispatcher.OnUserCreated += (sender, args) => httpClient.SendUserInfo(args.SimpleUser);
+
+            var service = new UserService(dispatcher);
+            var user = service.CreateUser("Vadim");
+
         }
     }
 }

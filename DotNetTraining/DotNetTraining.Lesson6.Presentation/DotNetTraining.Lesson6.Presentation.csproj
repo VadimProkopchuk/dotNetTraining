@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DotNetTraining.Lesson6.Delegates\DotNetTraining.Lesson6.Delegates.csproj" />
+    <ProjectReference Include="..\DotNetTraining.Lesson6.Events\DotNetTraining.Lesson6.Events.csproj" />
   </ItemGroup>
 
 </Project>
