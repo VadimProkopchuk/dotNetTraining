@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Linq;
 using DotNetTraining.Lesson6.Delegates;
 using DotNetTraining.Lesson6.Events;
 using DotNetTraining.Lesson6.Events.Clients;
+using DotNetTraining.Lesson6.LINQ.Generators;
 
 namespace DotNetTraining.Lesson6.Presentation
 {
@@ -9,10 +11,13 @@ namespace DotNetTraining.Lesson6.Presentation
     {
         static void Main(string[] args)
         {
+            // RunDelegateExample();
+            // RunEventsExample();
+            // LinqGeneratorExamples();
+            // DeferredExecutionExample();
+            ImmediateQueryExecution();
 
-
-
-            RunEventsExample();
+            Console.WriteLine("Method executed.");
         }
 
 
@@ -46,6 +51,24 @@ namespace DotNetTraining.Lesson6.Presentation
             var service = new UserService(dispatcher);
             var user = service.CreateUser("Vadim");
 
+        }
+
+        static void LinqGeneratorExamples()
+        {
+            foreach (var number in FibonacciGenerator.Generate(10))
+            {
+                Console.WriteLine(number);
+            }
+        }
+
+        static void DeferredExecutionExample()
+        {
+            var fibonacciNumbers = FibonacciGenerator.Generate().Take(5);
+        }
+
+        static void ImmediateQueryExecution()
+        {
+            var firstFibonacciNumber = FibonacciGenerator.Generate().First();
         }
     }
 }
