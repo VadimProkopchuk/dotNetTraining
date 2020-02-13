@@ -5,83 +5,83 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson1", "Lesson1", "{30301EB4-A81E-4E9F-9677-944DE9DA2F91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.ArithmeticOperators", "DotNetTraining.Lesson1.ArithmeticOperators\DotNetTraining.Lesson1.ArithmeticOperators.csproj", "{B53E689A-4B42-457C-B26C-1D26133F7630}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.ArithmeticOperators", "Lesson1\DotNetTraining.Lesson1.ArithmeticOperators\DotNetTraining.Lesson1.ArithmeticOperators.csproj", "{B53E689A-4B42-457C-B26C-1D26133F7630}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.AssignmentOperators", "DotNetTraining.Lesson1.AssignmentOperators\DotNetTraining.Lesson1.AssignmentOperators.csproj", "{F2BBD8C8-EACA-4649-B4B3-C367DA28B883}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.AssignmentOperators", "Lesson1\DotNetTraining.Lesson1.AssignmentOperators\DotNetTraining.Lesson1.AssignmentOperators.csproj", "{F2BBD8C8-EACA-4649-B4B3-C367DA28B883}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.BitwiseOperators", "DotNetTraining.Lesson1.BitwiseOperators\DotNetTraining.Lesson1.BitwiseOperators.csproj", "{1F6EE359-570B-42B4-A5C4-3C7696C389D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.BitwiseOperators", "Lesson1\DotNetTraining.Lesson1.BitwiseOperators\DotNetTraining.Lesson1.BitwiseOperators.csproj", "{1F6EE359-570B-42B4-A5C4-3C7696C389D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.ConditionalExpressionsAndStatements", "DotNetTraining.Lesson1.ConditionalExpressions\DotNetTraining.Lesson1.ConditionalExpressionsAndStatements.csproj", "{2247BDC9-13F0-42C1-8752-D40C5029CE15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.ConditionalExpressionsAndStatements", "Lesson1\DotNetTraining.Lesson1.ConditionalExpressions\DotNetTraining.Lesson1.ConditionalExpressionsAndStatements.csproj", "{2247BDC9-13F0-42C1-8752-D40C5029CE15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.ConversionOperations", "DotNetTraining.Lesson1.ConversionOperations\DotNetTraining.Lesson1.ConversionOperations.csproj", "{BE5AFDC3-3549-449B-A61F-600E02B447B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.ConversionOperations", "Lesson1\DotNetTraining.Lesson1.ConversionOperations\DotNetTraining.Lesson1.ConversionOperations.csproj", "{BE5AFDC3-3549-449B-A61F-600E02B447B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.LoopsAndArrays", "DotNetTraining.Lesson1.LoopsAndArrays\DotNetTraining.Lesson1.LoopsAndArrays.csproj", "{6DA9F95A-7583-49B7-B6C4-19042A3A38F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.LoopsAndArrays", "Lesson1\DotNetTraining.Lesson1.LoopsAndArrays\DotNetTraining.Lesson1.LoopsAndArrays.csproj", "{6DA9F95A-7583-49B7-B6C4-19042A3A38F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.NamespacesAndStaticImport", "DotNetTraining.Lesson1.NamespacesAndStaticImport\DotNetTraining.Lesson1.NamespacesAndStaticImport.csproj", "{E0BC7E8D-CDB6-48A7-A118-9AA0E04A1209}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.NamespacesAndStaticImport", "Lesson1\DotNetTraining.Lesson1.NamespacesAndStaticImport\DotNetTraining.Lesson1.NamespacesAndStaticImport.csproj", "{E0BC7E8D-CDB6-48A7-A118-9AA0E04A1209}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.Presentation", "DotNetTraining.Lesson1.Presentation\DotNetTraining.Lesson1.Presentation.csproj", "{BFB27969-9D70-4E32-8E44-8547ECB4CA8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.Presentation", "Lesson1\DotNetTraining.Lesson1.Presentation\DotNetTraining.Lesson1.Presentation.csproj", "{BFB27969-9D70-4E32-8E44-8547ECB4CA8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.Variables", "DotNetTraining.Lesson1.Variables\DotNetTraining.Lesson1.Variables.csproj", "{E11939AD-30F4-4F00-9804-4100338E920B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson1.Variables", "Lesson1\DotNetTraining.Lesson1.Variables\DotNetTraining.Lesson1.Variables.csproj", "{E11939AD-30F4-4F00-9804-4100338E920B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson2", "Lesson2", "{19E304ED-BA58-4920-B553-987FDE90C840}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Args", "DotNetTraining.Lesson2.Args\DotNetTraining.Lesson2.Args.csproj", "{E0FC17F3-8EB4-4454-A062-D5FA0D16EA2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Args", "Lesson2\DotNetTraining.Lesson2.Args\DotNetTraining.Lesson2.Args.csproj", "{E0FC17F3-8EB4-4454-A062-D5FA0D16EA2D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Classes", "DotNetTraining.Lesson2.Classes\DotNetTraining.Lesson2.Classes.csproj", "{AD92FB9D-ED30-4593-99D5-DCD47075B500}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Classes", "Lesson2\DotNetTraining.Lesson2.Classes\DotNetTraining.Lesson2.Classes.csproj", "{AD92FB9D-ED30-4593-99D5-DCD47075B500}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Enums", "DotNetTraining.Lesson2.Enums\DotNetTraining.Lesson2.Enums.csproj", "{64E52919-FCAE-44E1-9AD5-2696967BF9DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Enums", "Lesson2\DotNetTraining.Lesson2.Enums\DotNetTraining.Lesson2.Enums.csproj", "{64E52919-FCAE-44E1-9AD5-2696967BF9DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Methods", "DotNetTraining.Lesson2.Methods\DotNetTraining.Lesson2.Methods.csproj", "{77EF19CD-1C99-4057-8B53-D6AF570C2568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Methods", "Lesson2\DotNetTraining.Lesson2.Methods\DotNetTraining.Lesson2.Methods.csproj", "{77EF19CD-1C99-4057-8B53-D6AF570C2568}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Partial", "DotNetTraining.Lesson2.Partial\DotNetTraining.Lesson2.Partial.csproj", "{5C646365-CCD4-48D3-8BF3-E9ECC2EAE785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Partial", "Lesson2\DotNetTraining.Lesson2.Partial\DotNetTraining.Lesson2.Partial.csproj", "{5C646365-CCD4-48D3-8BF3-E9ECC2EAE785}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Presentation", "DotNetTraining.Lesson2.Presentation\DotNetTraining.Lesson2.Presentation.csproj", "{8BCB8101-8CA5-4C20-B38D-E08ECA2EAE80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Presentation", "Lesson2\DotNetTraining.Lesson2.Presentation\DotNetTraining.Lesson2.Presentation.csproj", "{8BCB8101-8CA5-4C20-B38D-E08ECA2EAE80}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.RecursiveMethods", "DotNetTraining.Lesson2.RecursiveMethods\DotNetTraining.Lesson2.RecursiveMethods.csproj", "{9FD1EC1B-0125-4672-9278-73B26C74257F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.RecursiveMethods", "Lesson2\DotNetTraining.Lesson2.RecursiveMethods\DotNetTraining.Lesson2.RecursiveMethods.csproj", "{9FD1EC1B-0125-4672-9278-73B26C74257F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Structures", "DotNetTraining.Lesson2.Structures\DotNetTraining.Lesson2.Structures.csproj", "{6B5920EC-E35B-4735-88A5-939339743543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Structures", "Lesson2\DotNetTraining.Lesson2.Structures\DotNetTraining.Lesson2.Structures.csproj", "{6B5920EC-E35B-4735-88A5-939339743543}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Tuple", "DotNetTraining.Lesson2.Tuple\DotNetTraining.Lesson2.Tuple.csproj", "{13BFE4D5-57EE-4B6C-B8FB-D09B77A1EF48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson2.Tuple", "Lesson2\DotNetTraining.Lesson2.Tuple\DotNetTraining.Lesson2.Tuple.csproj", "{13BFE4D5-57EE-4B6C-B8FB-D09B77A1EF48}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson3", "Lesson3", "{6B81073B-0131-4C64-B14B-28E63AE23334}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson3.Presentation", "Lesson3\DotNetTraining.Lesson3.Presentation\DotNetTraining.Lesson3.Presentation.csproj", "{373EA58C-30A0-4909-81CF-6C78CC322579}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson3.Stream", "Lesson3\DotNetTraining.Lesson3.Stream\DotNetTraining.Lesson3.Stream.csproj", "{EA99533E-9C80-40F2-9AD3-00328F1FE16A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson3.FileAndFileInfo", "Lesson3\DotNetTraining.Lesson3.FileAndFileInfo\DotNetTraining.Lesson3.FileAndFileInfo.csproj", "{D9969E57-4C59-494E-ABD6-1FDC0C83A083}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson3.Exception", "Lesson3\DotNetTraining.Lesson3.Exception\DotNetTraining.Lesson3.Exception.csproj", "{53905281-3CA5-4DAB-922B-4295C067E4F4}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson4", "Lesson4", "{ABC68B11-477F-438A-97CB-7394971F0327}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Calculator", "DotNetTraining.Lesson4.Calculator\DotNetTraining.Lesson4.Calculator.csproj", "{0E0BB073-E422-404C-8204-79B55873F073}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Calculator", "Lesson4\DotNetTraining.Lesson4.Calculator\DotNetTraining.Lesson4.Calculator.csproj", "{0E0BB073-E422-404C-8204-79B55873F073}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.MoqClasses", "DotNetTraining.Lesson4.MoqClasses\DotNetTraining.Lesson4.MoqClasses.csproj", "{7C69F695-8E10-4818-A9D5-69EDF18EC5E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.MoqClasses", "Lesson4\DotNetTraining.Lesson4.MoqClasses\DotNetTraining.Lesson4.MoqClasses.csproj", "{7C69F695-8E10-4818-A9D5-69EDF18EC5E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Presentation", "DotNetTraining.Lesson4.Presentation\DotNetTraining.Lesson4.Presentation.csproj", "{AD0D1567-7B83-4150-983E-F55C25F0BAE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Presentation", "Lesson4\DotNetTraining.Lesson4.Presentation\DotNetTraining.Lesson4.Presentation.csproj", "{AD0D1567-7B83-4150-983E-F55C25F0BAE2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Principles", "DotNetTraining.Lesson4.Principles\DotNetTraining.Lesson4.Principles.csproj", "{DCC1E4E4-A4FB-4EE9-9409-E73C4AD4011B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Principles", "Lesson4\DotNetTraining.Lesson4.Principles\DotNetTraining.Lesson4.Principles.csproj", "{DCC1E4E4-A4FB-4EE9-9409-E73C4AD4011B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Tests", "DotNetTraining.Lesson4.Tests\DotNetTraining.Lesson4.Tests.csproj", "{F6E2F300-62F9-4672-9659-EB715FB91C98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson4.Tests", "Lesson4\DotNetTraining.Lesson4.Tests\DotNetTraining.Lesson4.Tests.csproj", "{F6E2F300-62F9-4672-9659-EB715FB91C98}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson5", "Lesson5", "{DD274DC7-FAE8-40C4-858B-2F53F8C2659C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson5.Presentation", "Lesson5\DotNetTraining.Lesson5.Presentation\DotNetTraining.Lesson5.Presentation.csproj", "{9A923000-A73D-4226-84C0-6C6FDE59E4CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson5.PointersAndUnsafe", "Lesson5\DotNetTraining.Lesson5.PointersAndUnsafe\DotNetTraining.Lesson5.PointersAndUnsafe.csproj", "{65559A6C-8F59-47AA-A088-DED9D0AB90CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson5.UsingAndDisposablePattern", "Lesson5\DotNetTraining.Lesson5.UsingAndDisposablePattern\DotNetTraining.Lesson5.UsingAndDisposablePattern.csproj", "{C7B02EC7-9775-4C7F-B95E-A6E9C7290D8D}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson6", "Lesson6", "{F53ED05F-DD6C-4302-BFCD-588EB3D182E8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson6.Presentation", "DotNetTraining.Lesson6.Presentation\DotNetTraining.Lesson6.Presentation.csproj", "{9F7BE2DF-CB84-4C3D-BC14-5B42172C402A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson6.Presentation", "Lesson6\DotNetTraining.Lesson6.Presentation\DotNetTraining.Lesson6.Presentation.csproj", "{9F7BE2DF-CB84-4C3D-BC14-5B42172C402A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson6.Delegates", "DotNetTraining.Lesson6.Delegates\DotNetTraining.Lesson6.Delegates.csproj", "{6EDCF7DE-D972-41EB-AFC9-5B9CB3A3E374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson6.Delegates", "Lesson6\DotNetTraining.Lesson6.Delegates\DotNetTraining.Lesson6.Delegates.csproj", "{6EDCF7DE-D972-41EB-AFC9-5B9CB3A3E374}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson6.Events", "DotNetTraining.Lesson6.Events\DotNetTraining.Lesson6.Events.csproj", "{E325D29A-96D1-4C5F-A43E-2E33A729F174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson6.Events", "Lesson6\DotNetTraining.Lesson6.Events\DotNetTraining.Lesson6.Events.csproj", "{E325D29A-96D1-4C5F-A43E-2E33A729F174}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson6.LINQ", "DotNetTraining.Lesson6.LINQ\DotNetTraining.Lesson6.LINQ.csproj", "{0329B752-1086-4329-A210-01ECAEF4B970}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson3.Presentation", "DotNetTraining.Lesson3.Presentation\DotNetTraining.Lesson3.Presentation.csproj", "{373EA58C-30A0-4909-81CF-6C78CC322579}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson3.Stream", "DotNetTraining.Lesson3.Stream\DotNetTraining.Lesson3.Stream.csproj", "{EA99533E-9C80-40F2-9AD3-00328F1FE16A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson3.FileAndFileInfo", "DotNetTraining.Lesson3.FileAndFileInfo\DotNetTraining.Lesson3.FileAndFileInfo.csproj", "{D9969E57-4C59-494E-ABD6-1FDC0C83A083}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson3.Exception", "DotNetTraining.Lesson3.Exception\DotNetTraining.Lesson3.Exception.csproj", "{53905281-3CA5-4DAB-922B-4295C067E4F4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson5.Presentation", "DotNetTraining.Lesson5.Presentation\DotNetTraining.Lesson5.Presentation.csproj", "{9A923000-A73D-4226-84C0-6C6FDE59E4CB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson5.PointersAndUnsafe", "DotNetTraining.Lesson5.PointersAndUnsafe\DotNetTraining.Lesson5.PointersAndUnsafe.csproj", "{65559A6C-8F59-47AA-A088-DED9D0AB90CB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson5.UsingAndDisposablePattern", "DotNetTraining.Lesson5.UsingAndDisposablePattern\DotNetTraining.Lesson5.UsingAndDisposablePattern.csproj", "{C7B02EC7-9775-4C7F-B95E-A6E9C7290D8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson6.LINQ", "Lesson6\DotNetTraining.Lesson6.LINQ\DotNetTraining.Lesson6.LINQ.csproj", "{0329B752-1086-4329-A210-01ECAEF4B970}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

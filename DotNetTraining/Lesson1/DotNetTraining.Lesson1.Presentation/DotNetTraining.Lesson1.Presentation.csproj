@@ -49,5 +49,39 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetTraining.Lesson1.ArithmeticOperators\DotNetTraining.Lesson1.ArithmeticOperators.csproj">
+      <Project>{b53e689a-4b42-457c-b26c-1d26133f7630}</Project>
+      <Name>DotNetTraining.Lesson1.ArithmeticOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetTraining.Lesson1.AssignmentOperators\DotNetTraining.Lesson1.AssignmentOperators.csproj">
+      <Project>{f2bbd8c8-eaca-4649-b4b3-c367da28b883}</Project>
+      <Name>DotNetTraining.Lesson1.AssignmentOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetTraining.Lesson1.BitwiseOperators\DotNetTraining.Lesson1.BitwiseOperators.csproj">
+      <Project>{1f6ee359-570b-42b4-a5c4-3c7696c389d7}</Project>
+      <Name>DotNetTraining.Lesson1.BitwiseOperators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetTraining.Lesson1.ConditionalExpressions\DotNetTraining.Lesson1.ConditionalExpressionsAndStatements.csproj">
+      <Project>{2247bdc9-13f0-42c1-8752-d40c5029ce15}</Project>
+      <Name>DotNetTraining.Lesson1.ConditionalExpressionsAndStatements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetTraining.Lesson1.ConversionOperations\DotNetTraining.Lesson1.ConversionOperations.csproj">
+      <Project>{be5afdc3-3549-449b-a61f-600e02b447b6}</Project>
+      <Name>DotNetTraining.Lesson1.ConversionOperations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetTraining.Lesson1.LoopsAndArrays\DotNetTraining.Lesson1.LoopsAndArrays.csproj">
+      <Project>{6da9f95a-7583-49b7-b6c4-19042a3a38f5}</Project>
+      <Name>DotNetTraining.Lesson1.LoopsAndArrays</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetTraining.Lesson1.NamespacesAndStaticImport\DotNetTraining.Lesson1.NamespacesAndStaticImport.csproj">
+      <Project>{e0bc7e8d-cdb6-48a7-a118-9aa0e04a1209}</Project>
+      <Name>DotNetTraining.Lesson1.NamespacesAndStaticImport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetTraining.Lesson1.Variables\DotNetTraining.Lesson1.Variables.csproj">
+      <Project>{e11939ad-30f4-4f00-9804-4100338e920b}</Project>
+      <Name>DotNetTraining.Lesson1.Variables</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
