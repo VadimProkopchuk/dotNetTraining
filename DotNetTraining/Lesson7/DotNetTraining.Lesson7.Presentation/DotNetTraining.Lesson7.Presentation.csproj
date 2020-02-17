@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetTraining.Lesson7.PLINQ\DotNetTraining.Lesson7.PLINQ.csproj" />
+  </ItemGroup>
+
 </Project>
