@@ -10,6 +10,8 @@ The solution will be supplemented and updated.
 ## Technologies 
 
 * .NET Core 3.x
+* Entity Framework Core 3.x
+* Core DI
 
 ## Lessons 
 
@@ -68,3 +70,6 @@ The solution will be supplemented and updated.
     - Class `CancellationToken`
     - Canceling Operations
     - `async`/`await`
+* Lesson 8
+    - Entity Framework Core 3.x
+    - Core DI
