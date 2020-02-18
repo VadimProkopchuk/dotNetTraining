@@ -89,9 +89,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson7.PLIN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson7.Presentation", "Lesson7\DotNetTraining.Lesson7.Presentation\DotNetTraining.Lesson7.Presentation.csproj", "{594A91C1-FC72-4FD1-A2EE-0C2E465F3ADE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson7.Thread", "DotNetTraining.Lesson7.Thread\DotNetTraining.Lesson7.Thread.csproj", "{B75F1D25-B400-4C69-9AC3-452DD56FF3C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson7.Thread", "Lesson7\DotNetTraining.Lesson7.Thread\DotNetTraining.Lesson7.Thread.csproj", "{B75F1D25-B400-4C69-9AC3-452DD56FF3C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson7.AsyncAwait", "DotNetTraining.Lesson7.AsyncAwait\DotNetTraining.Lesson7.AsyncAwait.csproj", "{181B858D-BBE5-4834-979B-480153F007B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson7.AsyncAwait", "Lesson7\DotNetTraining.Lesson7.AsyncAwait\DotNetTraining.Lesson7.AsyncAwait.csproj", "{181B858D-BBE5-4834-979B-480153F007B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
