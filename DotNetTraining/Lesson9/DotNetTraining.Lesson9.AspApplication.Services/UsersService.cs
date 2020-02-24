@@ -13,10 +13,13 @@ namespace DotNetTraining.Lesson9.AspApplication.Services
     public class UsersService : IUsersService
     {
         private readonly IAppEntityRepository<User> usersRepository;
+        private readonly IDataContext dataContext;
 
-        public UsersService(IAppEntityRepository<User> usersRepository)
+        public UsersService(IAppEntityRepository<User> usersRepository,
+            IDataContext dataContext)
         {
             this.usersRepository = usersRepository;
+            this.dataContext = dataContext;
         }
 
         public async Task<List<UserViewModel>> GetAsync()
@@ -39,6 +42,20 @@ namespace DotNetTraining.Lesson9.AspApplication.Services
             return MapUser(user);
         }
 
+        public async Task<UserViewModel> CreateAsync(CreateUserViewModel createUserViewModel)
+        {
+            var user = new User()
+            {
+                FirstName = createUserViewModel.FirstName,
+                LastName = createUserViewModel.LastName
+            };
+
+            usersRepository.Add(user);
+
+            await dataContext.SaveChangesAsync();
+
+            return MapUser(user);
+        }
 
         private UserViewModel MapUser(User user)
         {
@@ -46,7 +63,7 @@ namespace DotNetTraining.Lesson9.AspApplication.Services
             {
                 Id = user.Id,
                 FullName = $"{user.FirstName} {user.LastName}",
-                Achievements = user.UserAchievements.Select(a => new AchievementViewModel
+                Achievements = user.UserAchievements?.Select(a => new AchievementViewModel
                 {
                     ReceivedAt = a.CreatedAt,
                     Name = a.Achievement.Name

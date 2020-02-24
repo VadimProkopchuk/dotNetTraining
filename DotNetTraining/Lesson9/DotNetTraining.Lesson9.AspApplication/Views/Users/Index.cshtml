@@ -5,6 +5,11 @@
 }
 
 <h1>Users</h1>
+
+<div class="form-group">
+    <a href="@Url.Action("CreateUser", "Users")">Add user</a>
+</div>
+
 @if (Model != null && Model.Any())
 {
     <ul>
@@ -26,7 +31,6 @@
             {
                 <ul>
                     <li class="text-danger">No achievements.</li>
-
                 </ul>
             }
         }

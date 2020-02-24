@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using DotNetTraining.Lesson9.AspApplication.Services.Contracts;
+using DotNetTraining.Lesson9.AspApplication.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotNetTraining.Lesson9.AspApplication.Controllers
@@ -24,6 +25,20 @@ namespace DotNetTraining.Lesson9.AspApplication.Controllers
         {
             var user = await usersService.GetAsync(id);
             return View(user);
+        }
+
+        [HttpGet]
+        public IActionResult CreateUser()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateUser(CreateUserViewModel user)
+        {
+            await usersService.CreateAsync(user);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
