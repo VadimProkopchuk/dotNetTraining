@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Lesson8\DotNetTraining.Lesson8.ORM\DotNetTraining.Lesson8.ORM.csproj" />
     <ProjectReference Include="..\DotNetTraining.Lesson9.AspApplication.ViewModels\DotNetTraining.Lesson9.AspApplication.ViewModels.csproj" />
-    <ProjectReference Include="..\Lesson8\DotNetTraining.Lesson8.ORM\DotNetTraining.Lesson8.ORM.csproj" />
   </ItemGroup>
 
 </Project>

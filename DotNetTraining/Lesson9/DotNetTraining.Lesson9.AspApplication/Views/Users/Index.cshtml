@@ -11,8 +11,7 @@
         @foreach (var user in Model)
         {
             <li>
-                <strong>@user.FullName</strong>
-                <span class="text-muted">(#@user.Id)</span>
+                <a href="@Url.Action("Profile", "Users", new { id = user.Id})">@user.FullName</a>
             </li>
             @if (user.Achievements != null && user.Achievements.Any())
             {

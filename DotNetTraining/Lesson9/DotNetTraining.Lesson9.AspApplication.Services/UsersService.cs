@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DotNetTraining.Lesson8.ORM.DataAccess.Contracts;
@@ -25,17 +26,32 @@ namespace DotNetTraining.Lesson9.AspApplication.Services
                 .ToListAsync();
 
             return users
-                .Select(x => new UserViewModel
-                {
-                    Id = x.Id,
-                    FullName = $"{x.FirstName} {x.LastName}",
-                    Achievements = x.UserAchievements.Select(a => new AchievementViewModel
-                    {
-                        ReceivedAt = a.CreatedAt,
-                        Name = a.Achievement.Name
-                    }).ToList()
-                })
+                .Select(MapUser)
                 .ToList();
+        }
+
+        public async Task<UserViewModel> GetAsync(Guid id)
+        {
+            var user = await usersRepository
+                .GetQuery()
+                .FirstOrDefaultAsync(x => x.Id == id);
+
+            return MapUser(user);
+        }
+
+
+        private UserViewModel MapUser(User user)
+        {
+            return new UserViewModel()
+            {
+                Id = user.Id,
+                FullName = $"{user.FirstName} {user.LastName}",
+                Achievements = user.UserAchievements.Select(a => new AchievementViewModel
+                {
+                    ReceivedAt = a.CreatedAt,
+                    Name = a.Achievement.Name
+                }).ToList()
+            };
         }
     }
 }

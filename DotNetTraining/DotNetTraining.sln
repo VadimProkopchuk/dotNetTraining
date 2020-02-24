@@ -103,9 +103,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson9", "Lesson9", "{95D9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson9.AspApplication", "Lesson9\DotNetTraining.Lesson9.AspApplication\DotNetTraining.Lesson9.AspApplication.csproj", "{61CD191A-F278-4510-8944-DFB6A6D54491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson9.AspApplication.Services", "DotNetTraining.Lesson9.AspApplication.Services\DotNetTraining.Lesson9.AspApplication.Services.csproj", "{EF8CC027-C630-4379-BADD-B952A322FB57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson9.AspApplication.Services", "Lesson9\DotNetTraining.Lesson9.AspApplication.Services\DotNetTraining.Lesson9.AspApplication.Services.csproj", "{EF8CC027-C630-4379-BADD-B952A322FB57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson9.AspApplication.ViewModels", "DotNetTraining.Lesson9.AspApplication.ViewModels\DotNetTraining.Lesson9.AspApplication.ViewModels.csproj", "{8AC20410-A169-458B-A289-752759DD2665}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson9.AspApplication.ViewModels", "Lesson9\DotNetTraining.Lesson9.AspApplication.ViewModels\DotNetTraining.Lesson9.AspApplication.ViewModels.csproj", "{8AC20410-A169-458B-A289-752759DD2665}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
