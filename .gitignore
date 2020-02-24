@@ -2,3 +2,4 @@
 /DotNetTraining/.vs/DotNetTraining
 /DotNetTraining/**/bin
 /DotNetTraining/**/obj
+/DotNetTraining/Lesson9/DotNetTraining.Lesson9.AspApplication/wwwroot/lib

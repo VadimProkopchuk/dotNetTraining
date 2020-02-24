@@ -95,9 +95,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson7.Asyn
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson8", "Lesson8", "{0CAE4752-8EA3-4E8A-A06D-19149524BD4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson8.Presentation", "Lesson8\DotNetTraining.Lesson8.Presentation\DotNetTraining.Lesson8.Presentation.csproj", "{8BD6962D-4873-4893-BF52-5FFD225E1C54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson8.Presentation", "Lesson8\DotNetTraining.Lesson8.Presentation\DotNetTraining.Lesson8.Presentation.csproj", "{8BD6962D-4873-4893-BF52-5FFD225E1C54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson8.ORM", "Lesson8\DotNetTraining.Lesson8.ORM\DotNetTraining.Lesson8.ORM.csproj", "{38FF4331-3FD2-496A-AF77-8E455AB4F20A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson8.ORM", "Lesson8\DotNetTraining.Lesson8.ORM\DotNetTraining.Lesson8.ORM.csproj", "{38FF4331-3FD2-496A-AF77-8E455AB4F20A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson9", "Lesson9", "{95D9B452-2AB7-42BE-9E57-442D39D4886D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTraining.Lesson9.AspApplication", "Lesson9\DotNetTraining.Lesson9.AspApplication\DotNetTraining.Lesson9.AspApplication.csproj", "{61CD191A-F278-4510-8944-DFB6A6D54491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson9.AspApplication.Services", "DotNetTraining.Lesson9.AspApplication.Services\DotNetTraining.Lesson9.AspApplication.Services.csproj", "{EF8CC027-C630-4379-BADD-B952A322FB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.Lesson9.AspApplication.ViewModels", "DotNetTraining.Lesson9.AspApplication.ViewModels\DotNetTraining.Lesson9.AspApplication.ViewModels.csproj", "{8AC20410-A169-458B-A289-752759DD2665}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -265,6 +273,18 @@ Global
 		{38FF4331-3FD2-496A-AF77-8E455AB4F20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FF4331-3FD2-496A-AF77-8E455AB4F20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FF4331-3FD2-496A-AF77-8E455AB4F20A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CD191A-F278-4510-8944-DFB6A6D54491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CD191A-F278-4510-8944-DFB6A6D54491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CD191A-F278-4510-8944-DFB6A6D54491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CD191A-F278-4510-8944-DFB6A6D54491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8CC027-C630-4379-BADD-B952A322FB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8CC027-C630-4379-BADD-B952A322FB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8CC027-C630-4379-BADD-B952A322FB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8CC027-C630-4379-BADD-B952A322FB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC20410-A169-458B-A289-752759DD2665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC20410-A169-458B-A289-752759DD2665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC20410-A169-458B-A289-752759DD2665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC20410-A169-458B-A289-752759DD2665}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -310,6 +330,9 @@ Global
 		{181B858D-BBE5-4834-979B-480153F007B7} = {5A7818A3-E239-45B2-A166-B6D968977197}
 		{8BD6962D-4873-4893-BF52-5FFD225E1C54} = {0CAE4752-8EA3-4E8A-A06D-19149524BD4D}
 		{38FF4331-3FD2-496A-AF77-8E455AB4F20A} = {0CAE4752-8EA3-4E8A-A06D-19149524BD4D}
+		{61CD191A-F278-4510-8944-DFB6A6D54491} = {95D9B452-2AB7-42BE-9E57-442D39D4886D}
+		{EF8CC027-C630-4379-BADD-B952A322FB57} = {95D9B452-2AB7-42BE-9E57-442D39D4886D}
+		{8AC20410-A169-458B-A289-752759DD2665} = {95D9B452-2AB7-42BE-9E57-442D39D4886D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27A0F800-A4FF-4497-8710-9CFDB6691772}

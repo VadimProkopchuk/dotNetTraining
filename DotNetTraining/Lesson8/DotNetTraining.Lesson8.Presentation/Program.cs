@@ -15,11 +15,11 @@ namespace DotNetTraining.Lesson8.Presentation
             var serviceProvider = ConfigureServices();
             var app = serviceProvider.GetService<Application>();
 
-            //await app.CreateAchievementsAsync();
+            await app.CreateAchievementsAsync();
 
             //Console.ReadLine();
 
-            //await app.CreateUsersWithAllAchievementsAsync();
+            await app.CreateUsersWithAllAchievementsAsync();
 
             //Console.ReadLine();
 

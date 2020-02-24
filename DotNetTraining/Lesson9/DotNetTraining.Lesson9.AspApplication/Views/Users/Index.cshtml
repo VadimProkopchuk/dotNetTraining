@@ -1,0 +1,35 @@
+﻿@model List<DotNetTraining.Lesson9.AspApplication.ViewModels.UserViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Users</h1>
+@if (Model != null && Model.Any())
+{
+    <ul>
+        @foreach (var user in Model)
+        {
+            <li>
+                <strong>@user.FullName</strong>
+                <span class="text-muted">(#@user.Id)</span>
+            </li>
+            @if (user.Achievements != null && user.Achievements.Any())
+            {
+                <ul>
+                    @foreach (var achievement in user.Achievements)
+                    {
+                        <li class="text-info">@achievement.Name (@achievement.ReceivedAt)</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <ul>
+                    <li class="text-danger">No achievements.</li>
+
+                </ul>
+            }
+        }
+    </ul>
+}
