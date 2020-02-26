@@ -37,6 +37,18 @@ namespace DotNetTraining.Lesson9.AspApplication.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateUser(CreateUserViewModel user)
         {
+            var hasExistUser = await usersService.HasAnyWithAsync(user.FirstName, user.LastName);
+
+            if (hasExistUser)
+            {
+                ModelState.AddModelError(String.Empty, $"User {user.FirstName} {user.LastName} already exist.");
+            }
+            
+            if (!ModelState.IsValid)
+            {
+                return View(user);
+            }
+            
             await usersService.CreateAsync(user);
             return RedirectToAction(nameof(Index));
         }

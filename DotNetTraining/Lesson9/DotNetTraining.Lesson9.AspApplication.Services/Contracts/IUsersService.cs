@@ -10,5 +10,6 @@ namespace DotNetTraining.Lesson9.AspApplication.Services.Contracts
         Task<List<UserViewModel>> GetAsync();
         Task<UserViewModel> GetAsync(Guid id);
         Task<UserViewModel> CreateAsync(CreateUserViewModel createUserViewModel);
+        Task<bool> HasAnyWithAsync(string firstName, string lastName);
     }
 }

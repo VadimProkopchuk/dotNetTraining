@@ -42,6 +42,13 @@ namespace DotNetTraining.Lesson9.AspApplication.Services
             return MapUser(user);
         }
 
+        public async Task<bool> HasAnyWithAsync(string firstName, string lastName)
+        {
+            return await usersRepository
+                .GetQuery()
+                .AnyAsync(x => x.FirstName == firstName && x.LastName == lastName);
+        }
+
         public async Task<UserViewModel> CreateAsync(CreateUserViewModel createUserViewModel)
         {
             var user = new User()
