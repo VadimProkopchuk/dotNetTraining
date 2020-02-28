@@ -33,6 +33,18 @@ namespace DotNetTraining.Lesson9.AspApplication.Services
                 .ToList();
         }
 
+        public async Task<List<UserViewModel>> SearchAsync(string name)
+        {
+            var users = await usersRepository
+                .GetQuery()
+                .Where(x => x.FirstName.Contains(name) || x.LastName.Contains(name))
+                .ToListAsync();
+
+            return users
+                .Select(MapUser)
+                .ToList();
+        }
+
         public async Task<UserViewModel> GetAsync(Guid id)
         {
             var user = await usersRepository

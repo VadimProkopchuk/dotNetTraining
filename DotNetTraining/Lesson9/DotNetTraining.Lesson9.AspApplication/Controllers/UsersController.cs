@@ -52,5 +52,12 @@ namespace DotNetTraining.Lesson9.AspApplication.Controllers
             await usersService.CreateAsync(user);
             return RedirectToAction(nameof(Index));
         }
+
+        public async Task<IActionResult> UserSearch(string name)
+        {
+            var users = await usersService.SearchAsync(name);
+
+            return PartialView("_UsersSearch", users);
+        }
     }
 }
