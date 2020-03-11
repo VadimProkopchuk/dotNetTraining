@@ -12,6 +12,8 @@ The solution will be supplemented and updated.
 * .NET Core 3.x
 * Entity Framework Core 3.x
 * Core DI
+* ASP.NET Core 3.x
+* AJAX
 
 ## Lessons 
 
@@ -73,3 +75,14 @@ The solution will be supplemented and updated.
 * Lesson 8
     - Entity Framework Core 3.x
     - Core DI
+* Lesson 9
+    - ASP.NET Core
+    - MVC
+    - Razor, Context, Redirect
+    - View, Model, Razor, Razor Engine
+    - Routing
+    - Model Validation
+    - Filters, Bindings
+    - Tag Helpers
+    - View Components 
+    - AJAX
