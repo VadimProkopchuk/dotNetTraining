@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Bootstrap.FirstModule.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Bootstrap.FirstModule.cs" />
+  </ItemGroup>
+
+</Project>

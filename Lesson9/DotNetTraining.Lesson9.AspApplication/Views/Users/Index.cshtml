@@ -1,0 +1,32 @@
+﻿@model List<DotNetTraining.Lesson9.AspApplication.ViewModels.UserViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Users</h1>
+
+<form data-ajax="true" 
+      data-ajax-url="@Url.Action("UserSearch", "Users")" 
+      data-ajax-update="#users-list" 
+      data-ajax-mode="replace"
+      data-ajax-loading="#search-loader">
+    <div class="form-group">
+        <a href="@Url.Action("CreateUser", "Users")" class="btn btn-link">Add user</a>
+    </div>
+    <div class="form-group col-4">
+        <input type="text" name="name" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn badge-info"/>
+    </div>
+    <div id="search-loader" style="display: none;">
+        <img src="~/images/loading.gif"/>
+    </div>
+</form>
+
+@await Component.InvokeAsync("UsersViewList", new { users = Model })
+
+<div id="users-panel">
+    <div id="users-list"></div>
+</div>

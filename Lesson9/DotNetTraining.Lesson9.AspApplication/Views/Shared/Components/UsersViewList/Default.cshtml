@@ -1,0 +1,28 @@
+﻿@model List<DotNetTraining.Lesson9.AspApplication.ViewModels.UserViewModel>
+
+@if (Model != null && Model.Any())
+{
+    <ul>
+        @foreach (var user in Model)
+        {
+            <li>
+                <a href="@Url.Action("Profile", "Users", new { id = user.Id})">@user.FullName</a>
+            </li>
+            @if (user.Achievements != null && user.Achievements.Any())
+            {
+                <ul>
+                    @foreach (var achievement in user.Achievements)
+                    {
+                        <li class="text-info">@achievement.Name (@achievement.ReceivedAt)</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <ul>
+                    <li class="text-danger">No achievements.</li>
+                </ul>
+            }
+        }
+    </ul>
+}

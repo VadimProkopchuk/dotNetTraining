@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Lesson8\DotNetTraining.Lesson8.ORM\DotNetTraining.Lesson8.ORM.csproj" />
+    <ProjectReference Include="..\DotNetTraining.Lesson9.AspApplication.Services\DotNetTraining.Lesson9.AspApplication.Services.csproj" />
+    <ProjectReference Include="..\DotNetTraining.Lesson9.AspApplication.ViewModels\DotNetTraining.Lesson9.AspApplication.ViewModels.csproj" />
+  </ItemGroup>
+
+
+
+</Project>

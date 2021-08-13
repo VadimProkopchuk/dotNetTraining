@@ -1,0 +1,5 @@
+﻿@model List<DotNetTraining.Lesson9.AspApplication.ViewModels.UserViewModel>
+
+<h3>Users list</h3>
+
+@await Component.InvokeAsync("UsersViewList", new { users = Model })
